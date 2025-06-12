@@ -1,0 +1,11 @@
+teams:
+- name: test
+  maintainers:
+  - zhzhuang-zju
+  members:
+  - JesseStutler
+repositories:
+- name: team-test
+  teams:
+    test: read
+  visibility: public
