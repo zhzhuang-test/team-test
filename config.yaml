@@ -1,7 +1,7 @@
 teams:
 - name: test
   maintainers:
-  - zhzhuang-zju
+  - zhzhuang-zj
   members:
   - JesseStutler
 repositories:
