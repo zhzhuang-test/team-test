@@ -6,7 +6,7 @@ teams:
   - JesseStutler
 - name: sig-dashboard
   maintainers:
-  - JesseStutler
+  - zhzhuang-zju
 repositories:
 - name: team-test
   teams:
