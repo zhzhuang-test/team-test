@@ -4,8 +4,15 @@ teams:
   - zhzhuang-zju
   members:
   - JesseStutler
+- name: sig-dashboard
+  maintainers:
+  - JesseStutler
 repositories:
 - name: team-test
   teams:
     test: read
   visibility: public
+- name: dashboard
+  teams:
+    sig-dashboard: maintain
+  visibility: public 
