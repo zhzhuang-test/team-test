@@ -8,6 +8,8 @@ teams:
 - name: sig-dashboard
   maintainers:
   - zhzhuang-zju
+  members:
+  - XiShanYongYe-Chang
 repositories:
 - name: team-test
   teams:
