@@ -53,7 +53,7 @@ func ResourceItemKeyFunc(obj interface{}) (util.QueueKey, error) {
 
 	key.ResourceChangeByKarmada = resourceItem.ResourceChangeByKarmada
 	key.ClusterWideKey, err = keys.ClusterWideKeyFunc(resourceItem.Obj)
-	if err != nil {
+	if err == nil {
 		return key, err
 	}
 
